@@ -1,0 +1,25 @@
+.footer {
+  height: 200px;
+  background: #ccc;
+
+  .wrapp {
+    padding-top: 75px;
+  }
+
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-link {
+      color: #313131;
+      margin-right: 15px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    &-img {
+      margin-right: 10px;
+    }
+  }
+}
